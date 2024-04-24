@@ -75,5 +75,15 @@
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
             >;
         };
+
+        layer_4 {
+            bindings = <
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                 &trans  &kp N6  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &trans                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &trans    &trans   &kp LALT      &kp LGUI   &kp RCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp Z      &kp X      &kp C     &kp V     &kp B      &trans                     &kp HOME      &kp PG_UP                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp GRAVE  &kp LEFT  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL  &kp END       &kp PG_DN  &kp RET    &kp N0          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
